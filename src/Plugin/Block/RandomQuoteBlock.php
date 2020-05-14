@@ -63,7 +63,7 @@ class RandomQuoteBlock extends BlockBase implements ContainerFactoryPluginInterf
       $plugin_id,
       $plugin_definition,
       $container->get('random_quote'),
-      $container->get('page_cache_kill_switch'),
+      $container->get('page_cache_kill_switch')
     );
   }
 
